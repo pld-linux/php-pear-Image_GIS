@@ -28,10 +28,17 @@ common format for geographical data, the Arcinfo/E00 format as well as
 renderers to produce images using GD or Scalable Vector Graphics
 (SVG).
 
-This class has in PEAR status: %{_status}
+This class has in PEAR status: %{_status}.
 
 %description -l pl
-Ta klasa ma w PEAR status: %{_status}
+Generowanie map na ¿±danie mo¿e byæ ciê¿k± prac±, jako ¿e najczê¶ciej
+nie posiada siê potrzebnych map w postaci cyfrowej. Ale mo¿e generowaæ
+w³asne mapy na podstawie plików surowych, cyfrowych opisów danych,
+które s± dostêpne za darmo w sieci. Ten pakiet udostêpnia analizator
+do najczê¶ciej u¿ywanego formatu danych geograficznych Arcinfo/E00, a
+tak¿e narzêdzia rysuj±ce, tworz±ce obrazy przy u¿yciu GD lub SVG.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
