@@ -2,17 +2,17 @@
 %define		_class		Image
 %define		_subclass	GIS
 %define		_status		stable
-
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - visualization of GIS data
 Summary(pl):	%{_pearname} - wizualizacja danych GIS
 Name:		php-pear-%{_pearname}
-Version:	1.0.0
+Version:	1.1.0
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	45438d43fe56aa7c98c7cdef9e73173f
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	43f374d79bc2b7bf1b6ca79792e725c3
 URL:		http://pear.php.net/package/Image_GIS/
 BuildRequires:	rpm-php-pearprov >= 4.0.2-98
 Requires:	php-gd
