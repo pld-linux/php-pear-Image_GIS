@@ -29,7 +29,7 @@ common format for geographical data, the Arcinfo/E00 format as well as
 renderers to produce images using GD or Scalable Vector Graphics
 (SVG).
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 Generowanie map na ¿±danie mo¿e byæ ciê¿k± prac±, jako ¿e najczê¶ciej
