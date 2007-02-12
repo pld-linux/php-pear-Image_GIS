@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - visualization of GIS data
-Summary(pl):	%{_pearname} - wizualizacja danych GIS
+Summary(pl.UTF-8):   %{_pearname} - wizualizacja danych GIS
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	4
@@ -36,13 +36,13 @@ renderers to produce images using GD or Scalable Vector Graphics
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Generowanie map na ¿±danie mo¿e byæ ciê¿k± prac±, jako ¿e najczê¶ciej
-nie posiada siê potrzebnych map w postaci cyfrowej. Ale mo¿e generowaæ
-w³asne mapy na podstawie plików surowych, cyfrowych opisów danych,
-które s± dostêpne za darmo w sieci. Ten pakiet udostêpnia analizator
-do najczê¶ciej u¿ywanego formatu danych geograficznych Arcinfo/E00, a
-tak¿e narzêdzia rysuj±ce, tworz±ce obrazy przy u¿yciu GD lub SVG.
+%description -l pl.UTF-8
+Generowanie map na Å¼Ä…danie moÅ¼e byÄ‡ ciÄ™Å¼kÄ… pracÄ…, jako Å¼e najczÄ™Å›ciej
+nie posiada siÄ™ potrzebnych map w postaci cyfrowej. Ale moÅ¼e generowaÄ‡
+wÅ‚asne mapy na podstawie plikÃ³w surowych, cyfrowych opisÃ³w danych,
+ktÃ³re sÄ… dostÄ™pne za darmo w sieci. Ten pakiet udostÄ™pnia analizator
+do najczÄ™Å›ciej uÅ¼ywanego formatu danych geograficznych Arcinfo/E00, a
+takÅ¼e narzÄ™dzia rysujÄ…ce, tworzÄ…ce obrazy przy uÅ¼yciu GD lub SVG.
 
 Ta klasa ma w PEAR status: %{_status}.
 
