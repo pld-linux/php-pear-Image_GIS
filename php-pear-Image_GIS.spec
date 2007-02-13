@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - visualization of GIS data
-Summary(pl.UTF-8):   %{_pearname} - wizualizacja danych GIS
+Summary(pl.UTF-8):	%{_pearname} - wizualizacja danych GIS
 Name:		php-pear-%{_pearname}
 Version:	1.1.1
 Release:	4
