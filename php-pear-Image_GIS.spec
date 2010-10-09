@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - visualization of GIS data
 Summary(pl.UTF-8):	%{_pearname} - wizualizacja danych GIS
 Name:		php-pear-%{_pearname}
-Version:	1.1.1
-Release:	6
+Version:	1.1.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	08a175de367af29ef33abc3559117b7f
+# Source0-md5:	3fcd10cdff3ab2723111599426216b6d
 URL:		http://pear.php.net/package/Image_GIS/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
