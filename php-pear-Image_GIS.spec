@@ -1,13 +1,13 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Image
 %define		_subclass	GIS
 %define		_status		stable
-%define		_pearname	%{_class}_%{_subclass}
+%define		_pearname	Image_GIS
+%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - visualization of GIS data
 Summary(pl.UTF-8):	%{_pearname} - wizualizacja danych GIS
 Name:		php-pear-%{_pearname}
 Version:	1.1.2
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -16,7 +16,7 @@ URL:		http://pear.php.net/package/Image_GIS/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 BuildRequires:	rpmbuild(macros) >= 1.300
-Requires:	php-gd
+Requires:	php(gd)
 Requires:	php-pear
 Requires:	php-pear-Cache_Lite
 Requires:	php-pear-Image_Color
@@ -60,10 +60,10 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc install.log
 %{php_pear_dir}/.registry/*.reg
-%dir %{php_pear_dir}/%{_class}/%{_subclass}
-%dir %{php_pear_dir}/%{_class}/%{_subclass}/Parser
-%dir %{php_pear_dir}/%{_class}/%{_subclass}/Renderer
-%{php_pear_dir}/%{_class}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/Parser/*.php
-%{php_pear_dir}/%{_class}/%{_subclass}/Renderer/*.php
+%dir %{php_pear_dir}/Image/GIS
+%dir %{php_pear_dir}/Image/GIS/Parser
+%dir %{php_pear_dir}/Image/GIS/Renderer
+%{php_pear_dir}/Image/*.php
+%{php_pear_dir}/Image/GIS/*.php
+%{php_pear_dir}/Image/GIS/Parser/*.php
+%{php_pear_dir}/Image/GIS/Renderer/*.php
