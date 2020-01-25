@@ -2,7 +2,6 @@
 %define		_subclass	GIS
 %define		_status		stable
 %define		_pearname	Image_GIS
-%include	/usr/lib/rpm/macros.php
 Summary:	%{_pearname} - visualization of GIS data
 Summary(pl.UTF-8):	%{_pearname} - wizualizacja danych GIS
 Name:		php-pear-%{_pearname}
